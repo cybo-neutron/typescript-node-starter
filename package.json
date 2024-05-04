@@ -4,10 +4,10 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "clean": "rimraf build",
+    "clean": "rimraf dist",
     "dev": "nodemon",
     "build" : "npx tsc",
-    "serve" : "node build/index.js"
+    "serve" : "node dist/index.js"
   },
   "keywords": [],
   "author": "",
