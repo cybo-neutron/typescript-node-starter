@@ -18,9 +18,6 @@
     "declaration": true,
 
     "baseUrl": "src",
-    "paths": {
-      "@auth/*": ["src/*"]
-    }
-  },
-  
+    "paths": {}
+  }
 }
