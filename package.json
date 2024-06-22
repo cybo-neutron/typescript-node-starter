@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "clean": "rimraf dist",
-    "dev": "dotenv -e .env.local && env NODE_ENV=local tsx watch src/index.ts",
+    "dev": "env NODE_ENV=local tsx watch src/index.ts",
     "build": "npx tsc",
     "serve": "node dist/index.js",
     "prepare": "husky",
